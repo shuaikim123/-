@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>韩语单词拼写练习</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>韩语拼写练习</h1>
+    <div id="word-display">点击“开始”开始练习</div>
+    <input type="text" id="input-word" placeholder="请输入拼写" />
+    <button onclick="checkSpelling()">提交</button>
+    <button onclick="nextWord()">下一个</button>
+    <p id="feedback"></p>
+  </div>
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
